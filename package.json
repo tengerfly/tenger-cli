@@ -1,0 +1,36 @@
+{
+  "name": "tenger-cli",
+  "version": "1.0.0",
+  "description": "tenger-cli",
+  "main": "/bin/index.js",
+  "bin": {
+    "tenger": "index.js",
+    "tenger-add": "/bin/index-add.js",
+    "tenger-remove": "/bin/index-remove.js",
+    "tenger-list": "/bin/index-list.js",
+    "tenger-create": "/bin/index-create.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tengerfly/tenger-cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "tenger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tengerfly/tenger-cli/issues"
+  },
+  "homepage": "https://github.com/tengerfly/tenger-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.2.1",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.3.3",
+    "ora": "^5.2.0"
+  }
+}

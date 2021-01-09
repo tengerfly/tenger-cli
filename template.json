@@ -1,0 +1,8 @@
+{
+  "cli":{
+    "url":"tengerfly/vue-template"
+  },
+  "workflow":{
+    "url":"https://github.com:tengerfly/vue-template.git#workflow"
+  }
+}
