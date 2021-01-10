@@ -21,8 +21,7 @@ let question = [
   }
 ]
 
-inquirer
-  .prompt(question).then(answers => {
+inquirer.prompt(question).then(answers => {
     let { name } = answers;
     delete tplObj[name]
     // 更新 template.json 文件
