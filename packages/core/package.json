@@ -1,0 +1,25 @@
+{
+  "name": "@tenger-cli/core",
+  "version": "1.0.0",
+  "description": "tenger-cli",
+  "author": "腾飞 <15236388892@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npm.taobao.org/"
+  },
+  "scripts": {
+    "test": "node ./__tests__/core.test.js"
+  },
+  "dependencies": {
+    "@tenger-cli/utils": "^1.0.0"
+  }
+}

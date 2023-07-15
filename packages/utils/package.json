@@ -1,0 +1,22 @@
+{
+  "name": "@tenger-cli/utils",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "腾飞 <15236388892@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/utils.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npm.taobao.org/"
+  },
+  "scripts": {
+    "test": "node ./__tests__/utils.test.js"
+  }
+}
