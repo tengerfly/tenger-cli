@@ -1,6 +1,6 @@
 {
   "name": "@tenger-cli/core",
-  "version": "1.0.0",
+  "version": "1.0.1-alpha.0",
   "description": "tenger-cli",
   "author": "腾飞 <15236388892@163.com>",
   "homepage": "",
@@ -20,6 +20,6 @@
     "test": "node ./__tests__/core.test.js"
   },
   "dependencies": {
-    "@tenger-cli/utils": "^1.0.0"
+    "@tenger-cli/utils": "^1.0.1-alpha.0"
   }
 }
